@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thandi Mokoena | Junior Web Developer</title>
+  <meta name="description" content="Portfolio of Thandi Mokoena, junior web developer in Johannesburg.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top">Thandi M.</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="themeBtn" class="theme-btn" aria-label="Switch colour theme">Dark mode</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>I build clear, fast websites for small businesses.</h1>
+        <p>Hi, I'm Thandi, a junior web developer based in Johannesburg. I write HTML, CSS and JavaScript, and I am learning to build full applications.</p>
+        <a class="btn" href="#projects">See my projects</a>
+      </div>
+      <img class="avatar" src="images/avatar.svg" alt="Illustration of Thandi">
+    </section>
+
+    <section id="about" class="block">
+      <h2>About me</h2>
+      <!-- EDIT ME: replace this text with your own story -->
+      <p>I completed my Systems Development training and now build websites for local shops, schools and community groups. I enjoy turning a messy idea into a page that people can read and use on a phone.</p>
+    </section>
+
+    <section id="skills" class="block">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Git and GitHub</li><li>Responsive design</li><li>Netlify deployment</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="block">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card"><img src="images/project-1.svg" alt="Preview of the Spaza Stock project"><h3>Spaza Stock</h3><p>A stock list for a corner shop with search and low-stock warnings.</p></article>
+        <article class="card"><img src="images/project-2.svg" alt="Preview of the Class Timetable project"><h3>Class Timetable</h3><p>A weekly timetable that highlights today's lessons.</p></article>
+        <article class="card"><img src="images/project-3.svg" alt="Preview of the Taxi Fare Calculator project"><h3>Taxi Fare Calculator</h3><p>Works out a shared taxi fare for a group of passengers.</p></article>
+      </div>
+    </section>
+
+    <section id="contact" class="block">
+      <h2>Contact</h2>
+      <p>Need a website? Send me an email and I will reply within two working days.</p>
+      <a class="btn" href="mailto:thandi@example.com">thandi@example.com</a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>&copy; <span id="year">2026</span> Thandi Mokoena. Built with HTML, CSS and JavaScript.</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
